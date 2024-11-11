@@ -1,4 +1,4 @@
-Sam's Pizzaria - Pizza Delivery Website 🍕
+# Sam's Pizzaria - Pizza Delivery Website 🍕
 
 A visually appealing and responsive pizza delivery website with a sticky, blurred-background navbar. Users can explore sections such as the menu, features, delivery options, and more, all with an intuitive navigation experience.
 Features
@@ -9,7 +9,7 @@ Features
     Hover Effects: Highlighted navigation items with color changes on hover.
 
 
-Installation
+## Installation
 
     Clone the repository:
 
@@ -19,7 +19,7 @@ Installation
 
     Open: Open index.html in a browser to view the website.
 
-File Structure
+## File Structure
 
 - index.html
 - style.css
@@ -27,14 +27,15 @@ File Structure
     - logo.png
     - food.jpg
 
-Customization
+## Customization
 
     Images: Update assets/logo.png and assets/food.jpg with your own images.
     Styling: Modify colors, spacing, and font settings in style.css to personalize the appearance.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Fork the repository and submit a pull request with improvements or new features.
-License
+
+## License
 
 This project is licensed under the MIT License.

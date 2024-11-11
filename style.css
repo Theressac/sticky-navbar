@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  padding: 25px 35px;
+  font-family: sans-serif;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  height: 100vh;
+  background: url("assets/food.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  margin-left: 40px;
+}
+
+nav a {
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  font-family: sans-serif;
+  line-height: 35px;
+  padding: 0 30px;
+  text-align: justify;
+  margin-top: 80px;
+}
+
+section h1,
+h4 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+section h1 {
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
+.logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #d12a54;
+}
+
+#pizza-title {
+  color: #fed100;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #fed100;
+}
